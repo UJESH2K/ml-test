@@ -7,20 +7,20 @@ export default function Home() {
   const programs = [
     {
       num: 1,
-      title: "Decision Tree",
-      link: "/decision-tree",
+      title: "Locally Weighted Regression",
+      link: "/lwr",
       pattern: "grid" as const,
     },
     {
       num: 2,
-      title: "K-Means Clustering",
-      link: "/kmeans",
+      title: "Linear & Polynomial Regression",
+      link: "/regression",
       pattern: "diagonal-stripes" as const,
     },
     {
       num: 3,
-      title: "Locally Weighted Regression",
-      link: "/lwr",
+      title: "Decision Tree",
+      link: "/decision-tree",
       pattern: "horizontal-lines" as const,
     },
     {
@@ -31,8 +31,8 @@ export default function Home() {
     },
     {
       num: 5,
-      title: "Linear & Polynomial Regression",
-      link: "/regression",
+      title: "K-Means Clustering",
+      link: "/kmeans",
       pattern: "grid" as const,
     },
   ];
